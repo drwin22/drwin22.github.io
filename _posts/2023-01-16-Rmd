@@ -1,0 +1,15 @@
+---
+layout: post
+title: Posting Rmarkdowns to your Jekyll website
+output:
+  md_document:
+    variant: markdown_github
+    preserve_yaml: true
+---
+## Example of Rmarkdown
+```{r, echo=FALSE}
+hist(cars$speed)
+summary(cars)
+```
+
+### More to come
